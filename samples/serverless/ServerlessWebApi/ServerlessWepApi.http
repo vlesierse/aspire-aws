@@ -1,0 +1,11 @@
+@ServerlessWepApi_HostAddress = http://localhost:5246
+
+GET {{ServerlessWepApi_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ServerlessWepApi_HostAddress}}/todos/1
+Accept: application/json
+
+###

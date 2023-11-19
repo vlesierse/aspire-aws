@@ -1,6 +1,8 @@
+using Aspire.Hosting.Lifecycle;
+
 namespace Aspire.Hosting.AWS;
 
-public class AWSDistributedApplicationLifecycleHook
+internal sealed class AWSDistributedApplicationLifecycleHook : IDistributedApplicationLifecycleHook
 {
     
 }

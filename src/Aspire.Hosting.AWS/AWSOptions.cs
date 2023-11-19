@@ -1,6 +1,6 @@
-namespace Aspire.Hosting;
+namespace Aspire.Hosting.AWS;
 
-public class AWSOptions
-{
-    
-}
+/// <summary>
+/// Options for configuring AWS.
+/// </summary>
+public sealed record AWSOptions { }
